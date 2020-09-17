@@ -5,8 +5,15 @@ class Word(val english: String, val spanish: String, val img: String? = null){
 }
 
 fun main() {
-    val dog = Word("dog", "el perro","src/img/dog.jpg")
-    dog.sayIt()
-    val imgg = dog.img?: "no image"
-    println(imgg)
+    val string = "String"
+
+    try {
+        val int = string.toInt()
+    } catch (exeption: NumberFormatException) {
+        println("Exception: $exeption")
+    }
+
+    val strName = "Danny"
+
+    println(strName.hashCode())
 }
