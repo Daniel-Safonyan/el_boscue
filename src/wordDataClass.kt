@@ -4,6 +4,10 @@ data class Word(val english: String, val spanish: String, val img: String? = nul
     }
 }
 
+class Dictionary<Word> {
+    val dictionary: MutableList<Word> = mutableListOf()
+}
+
 fun main() {
     val boat = Word("boat", "el barco")
     boat.sayIt()
