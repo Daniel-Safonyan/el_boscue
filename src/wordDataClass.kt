@@ -4,8 +4,8 @@ data class Word(val english: String, val spanish: String, val img: String? = nul
     }
 }
 
-class Dictionary<Word> {
-    val dictionary: MutableList<Word> = mutableListOf()
+class Dictionary<T> {
+    val dictionary: MutableList<T> = mutableListOf()
 }
 
 fun main() {
