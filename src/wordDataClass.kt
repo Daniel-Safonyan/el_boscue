@@ -13,8 +13,5 @@ class irregularVerbsDictionary<T>(override val topic: String): Dictionary<T>(top
 }
 
 fun main() {
-    val boat = Word("boat", "el barco")
-    boat.sayIt()
-
-    val
+val newClass = 12
 }
