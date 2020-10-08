@@ -13,5 +13,5 @@ class irregularVerbsDictionary<T>(override val topic: String): Dictionary<T>(top
 }
 
 fun main() {
-val newDicccmmcty = irregularVerbsDictionary<Word>("Irregular Verbs")
+val newDicccmnnmcty = irregularVerbsDictionary<Word>("Irregular Verbs")
 }
